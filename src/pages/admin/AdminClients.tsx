@@ -57,6 +57,7 @@ const trialStatusLabels: Record<TrialStatus, string> = {
   aprovado: 'Aprovado',
   ativo: 'Ativo',
   finalizado: 'Finalizado',
+  expirado: 'Expirado',
   indisponivel: 'Indisponível',
 };
 
