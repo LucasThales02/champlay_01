@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { X, Eye, EyeOff, PlayCircle, Loader2 } from 'lucide-react';
+import { X, Eye, EyeOff, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '../../context/AppContext';
 import { supabase } from '../../lib/supabase';
