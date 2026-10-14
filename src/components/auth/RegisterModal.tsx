@@ -223,9 +223,15 @@ export function RegisterModal() {
         </button>
 
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 gradient-bg rounded-xl flex items-center justify-center">
-            <PlayCircle size={20} className="text-white" />
-          </div>
+        <div className="w-9 h-9 gradient-bg rounded-xl flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform overflow-hidden">
+              <img
+                src="/favicon.svg"
+                alt="Logo ChamPlay"
+                width={40}
+                height={40}
+                className="block w-full h-full rounded object-contain"
+              />
+            </div>
 
           <div>
             <h2
